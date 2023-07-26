@@ -46,4 +46,7 @@ public abstract class Shape {
        this.colour = colour;
     }
 
+    public abstract double getArea();
+    public abstract Point getCentrePoint();
+
 }
